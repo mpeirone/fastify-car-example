@@ -1,0 +1,48 @@
+user
+	permission=[number] //da discutere
+	+email=String
+	+hash=String
+	+salt=String
+	passwordRetenction=Number //numero di giorni not null?value:default
+	+passwordExpire=Date
+	forceReset=bool
+	resetPasswordToken=String
+	resetPasswordTokenExpire=Data
+	+company=ObjectId
+	+attivo=bool
+	dataNascita=Date
+	+nome=String
+	+cognome=String
+	NomeCompleto //da  discutere
+	telefoni=[String]
+	
+	
+login
+	id=ObjectId
+	+email=String
+	+hash=String
+	+salt=String
+	passwordRetenction=Number //default:90 modificabile solo da admin di sistema
+	+passwordExpire=Date
+	forceReset=bool
+	attivo=bool
+	resetPasswordToken=String
+	resetPasswordTokenExpire=Data
+user
+	id=ObjectId
+	permission=[number] //da discutere
+	+email=String
+	+company=ObjectId
+	+attivo=bool
+	dataNascita=Date
+	+nome=String
+	+cognome=String
+	NomeCompleto //da  discutere
+	telefoni=[String]	
+	ruolo=String
+	
+	
+	
+	
+	
+	
